@@ -38,6 +38,8 @@ info.onAdd = function (map) {
 info.update = function (props) {
     this._div.innerHTML = (props ?
         'Distrito ' + props.DISTRITO + '<br />' +
+        'Viviendas ' + props.VIVIEN + '<br />' +
+        'Hogares ' + props.HOG + '<br />' +
         'Personas ' + props.Personas + '<br />' + '<br />' +
 
         '<b>Marcador Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
