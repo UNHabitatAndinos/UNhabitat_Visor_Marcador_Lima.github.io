@@ -207,7 +207,7 @@ function fillColor(feature) {
         weight: 0.6,
         opacity: 0.1,
         color: (currentStyle) ? '#ffffff00' : '#c3bfc2', 
-        fillOpacity: (currentStyle) ? 0.9 : 0.5,
+        fillOpacity: (currentStyle) ? 0.7 : 0.5,
     };
 }
 
