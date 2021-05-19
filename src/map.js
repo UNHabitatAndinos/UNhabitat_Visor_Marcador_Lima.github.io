@@ -44,28 +44,30 @@ info.update = function (props) {
 
         '<b>Marcador Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
 
-        '<b>Vivienda '  + props.VIV.toFixed(0)  + ' %' + '</b>'+ '<br />' +
-        'Calidad: ' + props.V_CAL.toFixed(0) + ' %' + '<br />' +
-        'Servicios: ' + props.V_SER.toFixed(0) + ' %' + '<br />' +
+        
+        '<b>Vivienda asequible, de calidad y con servicios '  + props.VIV.toFixed(0)  + ' %' + '</b>'+ '<br />' +
+        'Calidad estructural y cualitativa de la vivienda: ' + props.V_CAL.toFixed(0) + ' %' + '<br />' +
+        'Acceso a servicios básicos e internet: ' + props.V_SER.toFixed(0) + ' %' + '<br />' +
         'Asequibilidad: </b> ' + props.V_ASE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
-        '<b>Salud ' + props.SAL.toFixed(0)  + ' %'  + '</b>'+ '<br />' +
-        'Proximidad: ' + props.S_PRO.toFixed(0) + ' %' + '<br />' +
+        
+        '<b>Salud y bienestar ' + props.SAL.toFixed(0)  + ' %'  + '</b>'+ '<br />' +
+        'Proximidad a centros de salud: ' + props.S_PRO.toFixed(0) + ' %' + '<br />' +
         'Exposición factores ambientales: ' + props.S_AMB.toFixed(0) + ' %' + '<br />' +
-        'Bienestar: '  + props.S_BIE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
+        'Esperanza de vida (considerando brecha de género): '  + props.S_BIE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
         '<b>Educación, cultura y diversidad ' + props.EDU.toFixed(0)  + ' %'  + '</b>'+  '<br />' +
-        'Proximidad: ' + props.E_PRO.toFixed(0) + ' %' + '<br />' +
-        'Diversidad: ' + props.E_DIV.toFixed(0) + ' %' + '<br />' +
-        'Bienestar: '  + props.E_BIE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
+        'Proximidad centros educativos: ' + props.E_PRO.toFixed(0) + ' %' + '<br />' +
+        'Diversidad socioeconómica: ' + props.E_DIV.toFixed(0) + ' %' + '<br />' +
+        'Nivel educativo (considerando brecha de género): '  + props.E_BIE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
         
-        '<b>Espacios públicos, seguridad y recreación ' + props.EPUB.toFixed(0)  + ' %'  + '</b>'+ '<br />' +
-        'Proximidad: ' + props.EP_PRO.toFixed(0) + ' %' + '<br />' +
-        'Vitalidad: ' + props.EP_VIT.toFixed(0) + ' %' + '<br />' +
+        '<b>Espacio público y seguridad ' + props.EPUB.toFixed(0)  + ' %'  + '</b>'+ '<br />' +
+        'Proximidad a espacios públicos: ' + props.EP_PRO.toFixed(0) + ' %' + '<br />' +
+        'Vitalidad ambiente urbano: ' + props.EP_VIT.toFixed(0) + ' %' + '<br />' +
         'Seguridad y protección: '  + props.EP_SEG.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
         '<b>Oportunidades económicas ' + props.OPO.toFixed(0)  + ' %'  + '</b>'+  '<br />' +
-        'Bienestar: '  + props.O_BIE.toFixed(0) + ' %'   : 'Seleccione una manzana');
+        'Acceso a oportunidades para el bienestar: '  + props.O_BIE.toFixed(0) + ' %'   : 'Seleccione una manzana');
 };
 info.addTo(map);
 
@@ -166,7 +168,7 @@ var legends = {
         elem5: '<div><span  style= "color:#2A115C">▉</span>37 - 54</div>',
         elem6: '',
         elem7: '',
-        elem8: "INEI, Censo Nacional Población y Vivienda 2017",
+        elem8: "INEI Censo Nacional Población y Vivienda 2017",
     },
 }
 
