@@ -72,23 +72,6 @@ info.update = function (props) {
 info.addTo(map);
 
 
-function stylec(feature) {
-    return {
-        weight: 2,
-        opacity: 1,
-        color: '#ffffff',
-        fillOpacity: 0,
-        dashArray: '3',
-    };
-}
-
-var loc = L.geoJson(distrito, {
-    style: stylec,
-    onEachFeature: popupText,
-}).addTo(map);
-
-
-
 function highlightFeature(e) {
     var layer = e.target;
 
@@ -178,6 +161,22 @@ var indi = L.geoJson(Manzana, {
 
 var currentStyle = 'INDICE_MAR';
 
+function stylec(feature) {
+    return {
+        weight: 2,
+        opacity: 1,
+        color: '#ffffff',
+        fillOpacity: 0,
+        dashArray: '3',
+    };
+}
+
+var loc = L.geoJson(distrito, {
+    style: stylec,
+    onEachFeature: popupText,
+}).addTo(map);
+
+
 manzanas = L.geoJson(Manzana, {
     style: style,
     onEachFeature: onEachFeature
@@ -208,7 +207,7 @@ function fillColor(feature) {
         weight: 0.6,
         opacity: 0.1,
         color: (currentStyle) ? '#ffffff00' : '#c3bfc2', 
-        fillOpacity: (currentStyle) ? 0.7 : 0.5,
+        fillOpacity: (currentStyle) ? 0.9 : 0.5,
     };
 }
 
