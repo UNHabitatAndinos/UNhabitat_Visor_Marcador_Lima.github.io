@@ -40,16 +40,15 @@ info.update = function (props) {
         'Distrito ' + props.DISTRITO + '<br />' +
         'Viviendas ' + props.VIVIEN + '<br />' +
         'Hogares ' + props.HOG + '<br />' +
-        'Personas ' + props.Personas + '<br />' + '<br />' +
+        'Personas ' + props.Personas + '<br />' +
+        'Población de origen Venezuela ' + props.D_VEN  + '<br />' +  '<br />' +  
 
         '<b>Marcador Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
-
         
         '<b>Vivienda asequible, de calidad y con servicios '  + props.VIV.toFixed(0)  + ' %' + '</b>'+ '<br />' +
         'Calidad estructural y cualitativa de la vivienda: ' + props.V_CAL.toFixed(0) + ' %' + '<br />' +
         'Acceso a servicios básicos e internet: ' + props.V_SER.toFixed(0) + ' %' + '<br />' +
         'Asequibilidad: </b> ' + props.V_ASE.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
-
         
         '<b>Salud y bienestar ' + props.SAL.toFixed(0)  + ' %'  + '</b>'+ '<br />' +
         'Proximidad a centros de salud: ' + props.S_PRO.toFixed(0) + ' %' + '<br />' +
@@ -67,6 +66,7 @@ info.update = function (props) {
         'Seguridad y protección: '  + props.EP_SEG.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
         '<b>Oportunidades económicas ' + props.OPO.toFixed(0)  + ' %'  + '</b>'+  '<br />' +
+        'Proximidad a comercio y servicios: ' + props.P_OPO.toFixed(0) + ' %' + '<br />' +
         'Acceso a oportunidades para el bienestar: '  + props.O_BIE.toFixed(0) + ' %'   : 'Seleccione una manzana');
 };
 info.addTo(map);
@@ -144,7 +144,7 @@ var legends = {
     INDICE_MAR: {
         title: "Marcador potencial integración urbana",
         subtitle: "%", 
-        elem1: '<div><span  style= "color:#FCF9BB">▉</span>66 - 79</div>',
+        elem1: '<div><span  style= "color:#FCF9BB">▉</span>66 - 74</div>',
         elem2: '<div><span  style= "color:#FE9D6C">▉</span>63 - 65</div>', 
         elem3: '<div><span  style= "color:#CA3E72">▉</span>59 - 62</div>',
         elem4: '<div><span  style= "color:#862781">▉</span>55 - 58</div>',
