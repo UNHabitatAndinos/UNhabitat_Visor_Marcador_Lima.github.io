@@ -66,7 +66,7 @@ info.update = function (props) {
         'Seguridad y protección: '  + props.EP_SEG.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
         '<b>Oportunidades económicas ' + props.OPO.toFixed(0)  + ' %'  + '</b>'+  '<br />' +
-        'Proximidad a comercio y servicios: ' + props.P_OPO.toFixed(0) + ' %' + '<br />' +
+        'Proximidad a empresas: ' + props.P_OPO.toFixed(0) + ' %' + '<br />' +
         'Acceso a oportunidades para el bienestar: '  + props.O_BIE.toFixed(0) + ' %'   : 'Seleccione una manzana');
 };
 info.addTo(map);
