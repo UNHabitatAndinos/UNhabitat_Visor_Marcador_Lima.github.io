@@ -142,7 +142,7 @@ function changeLegend(props) {
 
 var legends = {
     INDICE_MAR: {
-        title: "Marcador potencial integración urbana",
+        title: "Marcador de Inclusión Urbana",
         subtitle: "%", 
         elem1: '<div><span  style= "color:#FCF9BB">▉</span>66 - 74</div>',
         elem2: '<div><span  style= "color:#FE9D6C">▉</span>63 - 65</div>', 
