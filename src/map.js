@@ -43,7 +43,7 @@ info.update = function (props) {
         'Personas ' + props.Personas + '<br />' +
         'Población de origen Venezuela ' + props.D_VEN  + '<br />' +  '<br />' +  
 
-        '<b>Marcador Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
+        '<b>Marcador de Inclusión Urbana '  + props.INDICE_MAR.toFixed(0)  + ' %' + '</b>'+ '<br />' + '<br />' + 
         
         '<b>Vivienda asequible, de calidad y con servicios '  + props.VIV.toFixed(0)  + ' %' + '</b>'+ '<br />' +
         'Calidad estructural y cualitativa de la vivienda: ' + props.V_CAL.toFixed(0) + ' %' + '<br />' +
