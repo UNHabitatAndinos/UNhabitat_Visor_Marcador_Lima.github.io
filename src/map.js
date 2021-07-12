@@ -151,7 +151,7 @@ var legends = {
         elem5: '<div><span  style= "color:#2A115C">▉</span>37 - 54</div>',
         elem6: '',
         elem7: '',
-        elem8: "INEI Censo Nacional Población y Vivienda 2017",
+        elem8: "ONU Hábitat 2019 - Elaboración propia",
     },
 }
 
