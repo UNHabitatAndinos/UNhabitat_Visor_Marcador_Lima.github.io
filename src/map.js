@@ -164,12 +164,13 @@ var currentStyle = 'INDICE_MAR';
 function stylec(feature) {
     return {
         weight: 2,
-        opacity: 1,
+        opacity: 0.8,
         color: '#ffffff',
-        fillOpacity: 0,
-        dashArray: '1',
+        fillOpacity: 0.2,
+        dashArray: '5',
     };
 }
+
 
 var loc = L.geoJson(distrito, {
     style: stylec,
