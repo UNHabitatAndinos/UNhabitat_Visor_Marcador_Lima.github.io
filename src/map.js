@@ -167,7 +167,7 @@ function stylec(feature) {
         opacity: 1,
         color: '#ffffff',
         fillOpacity: 0,
-        dashArray: '3',
+        dashArray: '1',
     };
 }
 
