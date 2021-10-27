@@ -163,10 +163,10 @@ var currentStyle = 'INDICE_MAR';
 
 function stylec(feature) {
     return {
-        weight: 2,
+        weight: 1,
         opacity: 0.8,
         color: '#ffffff',
-        fillOpacity: 0.2,
+        fillOpacity: 0,
         dashArray: '5',
     };
 }
