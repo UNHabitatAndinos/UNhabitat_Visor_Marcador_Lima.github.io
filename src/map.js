@@ -66,7 +66,7 @@ info.update = function (props) {
         'Seguridad y protección: '  + props.EP_SEG.toFixed(0)  + ' %' +  '<br />' +  '<br />' +  
 
         '<b>Oportunidades económicas ' + props.OPO.toFixed(0)  + ' %'  + '</b>'+  '<br />' +
-        'Proximidad a empresas: ' + props.P_OPO.toFixed(0) + ' %' + '<br />' +
+        'Proximidad a zonas de interés económico: ' + props.O_PRO.toFixed(0) + ' %' + '<br />' +
         'Acceso a oportunidades para el bienestar: '  + props.O_BIE.toFixed(0) + ' %'   : 'Seleccione una manzana');
 };
 info.addTo(map);
@@ -144,11 +144,11 @@ var legends = {
     INDICE_MAR: {
         title: "Marcador de Inclusión Urbana",
         subtitle: "%", 
-        elem1: '<div><span  style= "color:#FCF9BB">▉</span>66 - 74</div>',
-        elem2: '<div><span  style= "color:#FE9D6C">▉</span>63 - 65</div>', 
-        elem3: '<div><span  style= "color:#CA3E72">▉</span>59 - 62</div>',
-        elem4: '<div><span  style= "color:#862781">▉</span>55 - 58</div>',
-        elem5: '<div><span  style= "color:#2A115C">▉</span>37 - 54</div>',
+        elem1: '<div><span  style= "color:#FCF9BB">▉</span>66 - 75</div>',
+        elem2: '<div><span  style= "color:#FE9D6C">▉</span>61 - 65</div>', 
+        elem3: '<div><span  style= "color:#CA3E72">▉</span>56 - 60</div>',
+        elem4: '<div><span  style= "color:#862781">▉</span>51 - 55</div>',
+        elem5: '<div><span  style= "color:#2A115C">▉</span>34 - 50</div>',
         elem6: '',
         elem7: '',
         elem8: "ONU-Habitat 2020 - Elaboración propia",
@@ -187,9 +187,9 @@ manzanas = L.geoJson(Manzana, {
 function setProColor(d) {
     if (currentStyle === 'INDICE_MAR') {
         return d > 65 ? '#FCF9BB' :
-            d > 62 ? '#FE9D6C' :
-                d > 58 ? '#CA3E72' :
-                    d > 54 ? '#862781' :
+            d > 60 ? '#FE9D6C' :
+                d > 55 ? '#CA3E72' :
+                    d > 50 ? '#862781' :
                     '#2A115C';
     }
     else {
